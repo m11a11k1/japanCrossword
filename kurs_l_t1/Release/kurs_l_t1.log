@@ -1,0 +1,26 @@
+﻿Построение начато 03.01.2017 1:26:30.
+     1>Проект "C:\Users\Lyubow Kaminskaya\Desktop\конечный диск\Проект\kurs_l_t1\kurs_l_t1\kurs_l_t1.vcxproj" в узле 2 (целевые объекты Build).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\\" /AI"C:\Program Files (x86)\Windows Kits\8.0\References\CommonConfiguration\Neutral" /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\Facades\\" /Zi /clr:pure /nologo /W3 /WX- /O2 /Oy- /D WIN32 /D NDEBUG /D _UNICODE /D UNICODE /EHa /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Release\kurs_l_t1.pch" /Fo"Release\\" /Fd"Release\vc110.pdb" /TP /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\mscorlib.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Data.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Drawing.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Windows.Forms.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Xml.dll" /analyze- /errorReport:prompt /clr:nostdlib kurs_l_t1.cpp
+         kurs_l_t1.cpp
+     1>c:\users\lyubow kaminskaya\desktop\конечный диск\проект\kurs_l_t1\kurs_l_t1\GameFile.h(6): warning C4570: kurs_l_t1::GameFile: не был объявлен явно как абстрактный, однако содержит абстрактные функции
+                 void kurs_l_t1::GameFile::Process(System::Windows::Forms::IWin32Window ^,unsigned char **,int,int): абстрактный
+                 c:\users\lyubow kaminskaya\desktop\конечный диск\проект\kurs_l_t1\kurs_l_t1\GameFile.h(14): см. объявление "kurs_l_t1::GameFile::Process"
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Lyubow Kaminskaya\Desktop\конечный диск\Проект\kurs_l_t1\Release\kurs_l_t1.exe" /INCREMENTAL:NO /NOLOGO /ASSEMBLYRESOURCE:Release\kurs_l_t1.Form1.resources /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Lyubow Kaminskaya\Desktop\конечный диск\Проект\kurs_l_t1\Release\kurs_l_t1.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"main" /DYNAMICBASE /FIXED:NO /NXCOMPAT /MACHINE:X86 /SAFESEH Release\app.res
+         Release\AssemblyInfo.obj
+         Release\bmp.obj
+         Release\BmpFile.obj
+         Release\GameFile.obj
+         Release\Drawing.obj
+         Release\kurs_l_t1.obj
+         Release\LogicalLevel.obj
+         Release\stdafx.obj
+         Release\TxtFile.obj
+         "Release\.NETFramework,Version=v4.5.AssemblyAttributes.obj"
+         kurs_l_t1.vcxproj -> C:\Users\Lyubow Kaminskaya\Desktop\конечный диск\Проект\kurs_l_t1\Release\kurs_l_t1.exe
+     1>Построение проекта "C:\Users\Lyubow Kaminskaya\Desktop\конечный диск\Проект\kurs_l_t1\kurs_l_t1\kurs_l_t1.vcxproj" завершено (целевые объекты Build).
+
+Построение успешно завершено.
+
+Затраченное время: 00:00:04.38

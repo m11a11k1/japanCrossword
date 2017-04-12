@@ -1,0 +1,32 @@
+﻿Построение начато 25.12.2016 3:13:05.
+     1>Проект "C:\Users\m1a1k1\Documents\Visual Studio 2012\Projects\kurs_l_t1\kurs_l_t1\kurs_l_t1.vcxproj" в узле 2 (целевые объекты Build).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\\" /AI"C:\Program Files (x86)\Windows Kits\8.0\References\CommonConfiguration\Neutral" /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\Facades\\" /Zi /clr:pure /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\kurs_l_t1.pch" /Fo"Debug\\" /Fd"Debug\vc110.pdb" /TP /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\mscorlib.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Data.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Drawing.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Windows.Forms.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Xml.dll" /analyze- /errorReport:prompt /clr:nostdlib kurs_l_t1.cpp
+         kurs_l_t1.cpp
+     1>c:\program files (x86)\windows kits\8.0\include\um\servprov.h(92): error C2872: IServiceProvider: неоднозначный символ
+                 может быть "c:\program files (x86)\windows kits\8.0\include\um\servprov.h(45) : System::IServiceProvider IServiceProvider"
+                 или       "c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.5\mscorlib.dll : System::IServiceProvider"
+     1>c:\program files (x86)\windows kits\8.0\include\um\servprov.h(92): error C3699: *: это косвенное обращение невозможно использовать для типа "IServiceProvider"
+                 для продолжения работы компилятор заменил "*" на "^"
+     1>c:\program files (x86)\windows kits\8.0\include\um\servprov.h(99): error C2371: IServiceProvider: переопределение; различные базовые типы
+                 c:\program files (x86)\windows kits\8.0\include\um\servprov.h(45): см. объявление "IServiceProvider"
+     1>c:\program files (x86)\windows kits\8.0\include\um\servprov.h(116): error C2872: IServiceProvider: неоднозначный символ
+                 может быть "c:\program files (x86)\windows kits\8.0\include\um\servprov.h(99) : IServiceProvider"
+                 или       "c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.5\mscorlib.dll : System::IServiceProvider"
+     1>c:\program files (x86)\windows kits\8.0\include\um\servprov.h(240): error C2872: IServiceProvider: неоднозначный символ
+                 может быть "c:\program files (x86)\windows kits\8.0\include\um\servprov.h(99) : IServiceProvider"
+                 или       "c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.5\mscorlib.dll : System::IServiceProvider"
+     1>c:\program files (x86)\windows kits\8.0\include\um\servprov.h(250): error C2872: IServiceProvider: неоднозначный символ
+                 может быть "c:\program files (x86)\windows kits\8.0\include\um\servprov.h(99) : IServiceProvider"
+                 или       "c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.5\mscorlib.dll : System::IServiceProvider"
+     1>C:\Program Files (x86)\Windows Kits\8.0\Include\um\urlmon.h(6774): error C2872: IServiceProvider: неоднозначный символ
+                 может быть "c:\program files (x86)\windows kits\8.0\include\um\servprov.h(99) : IServiceProvider"
+                 или       "c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.5\mscorlib.dll : System::IServiceProvider"
+     1>C:\Program Files (x86)\Windows Kits\8.0\Include\um\urlmon.h(6776): error C2872: IServiceProvider: неоднозначный символ
+                 может быть "c:\program files (x86)\windows kits\8.0\include\um\servprov.h(99) : IServiceProvider"
+                 или       "c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.5\mscorlib.dll : System::IServiceProvider"
+     1>Построение проекта "C:\Users\m1a1k1\Documents\Visual Studio 2012\Projects\kurs_l_t1\kurs_l_t1\kurs_l_t1.vcxproj" завершено (целевые объекты Build) с ошибкой.
+
+Сбой построения.
+
+Затраченное время: 00:00:00.49
